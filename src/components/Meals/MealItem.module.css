@@ -1,0 +1,99 @@
+
+.mealItemContainer {
+  width: 100%;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.25rem 0.5rem;
+
+  cursor: default;
+}
+
+.imageAndInfo
+{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.imageAndInfo img {
+  width: 8rem;
+  height: 6rem;
+  object-fit: cover;
+
+  border-radius: 12px;
+
+}
+
+.imageAndInfo img:hover {
+    transition: all 0.5s;
+    transform: scale(2);
+    border-radius: 0;
+  }
+
+.imageAndInfo .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.imageAndInfo .info .name
+{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.imageAndInfo .info .description
+{
+    color: rgba(238, 170, 115, 0.75);
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+.imageAndInfo .info .price
+{
+    font-weight: 600;
+}
+
+.amountAndButton
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.amountAndButton input
+{
+    font-size: 1.25rem;
+    font-family: 'Handjet', cursive;
+    text-align: center;
+    padding: 0.25rem 0;
+    width: 30%;
+}
+
+.amountAndButton button
+{
+    cursor: pointer;
+
+    font-weight: bold;
+
+    padding: 0.75rem 1.5rem;
+    outline: none;
+
+    border: none;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.amountAndButton button:active
+{
+    box-shadow: none;
+    border: 1px solid rgb(111, 69, 34);
+}

@@ -1,0 +1,55 @@
+.cartItemContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.5rem 1rem;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+
+    cursor: default;
+    
+}
+
+.amountAndName
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.mealInput
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.amountAndName .mealInput input
+{
+    font-size: 1.25rem;
+    font-family: 'Handjet', cursive;
+    text-align: center;
+    padding: 0.25rem 0;
+    width: 2rem;
+    color: black;
+}
+
+.amountAndName .mealName
+{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.totalPrice
+{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
